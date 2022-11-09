@@ -1,0 +1,36 @@
+body{
+    background-color: #1C1C1D;
+    font-family: Arial, sans-serif;
+}
+
+button{
+    color: #e1e1e1;
+    width: 80px;
+    height: 50px;
+    font-size: 23px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.top{
+    text-align: center;
+}
+
+h3{
+    color: #FFFFFF;
+}
+
+.log{
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    color: #FFFFFF;
+    background-color: #343434;
+    border-radius: 30px;
+}
+
+.logtext{
+    padding: 20px;
+    margin: auto;
+}

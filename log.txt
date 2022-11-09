@@ -1,0 +1,28 @@
+[ 10/02 Sun ]
+10/02 Sun, 17:21:00 | Start task.
+10/02 Sun, 17:21:01 | Website Response: 操作成功。
+10/02 Sun, 17:21:01 | Task finished.
+[ 10/02 Sun ]
+10/02 Sun, 17:21:00 | Start task.
+10/02 Sun, 17:21:01 | Website Response: 操作成功。
+10/02 Sun, 17:21:01 | Task finished.
+[ 10/02 Sun ]
+10/02 Sun, 17:48:00 | Start task.
+10/02 Sun, 17:48:01 | Website Response: 操作成功。
+10/02 Sun, 17:48:01 | Task finished.
+[ 10/02 Sun ]
+10/02 Sun, 17:49:00 | Start task.
+10/02 Sun, 17:49:01 | Website Response: 操作成功。
+10/02 Sun, 17:49:01 | Task finished.
+[ 10/02 Sun ]
+10/02 Sun, 17:52:01 | Start task.
+10/02 Sun, 17:52:01 | AutoBUS ststus is off.
+[ 10/02 Sun ]
+10/02 Sun, 17:54:00 | Start task.
+10/02 Sun, 17:54:00 | Website Response: 操作失敗，請再試一次或聯絡資訊中心。(錯誤代碼：身份錯誤!)
+10/02 Sun, 17:54:00 | Unexpected response (1)
+10/02 Sun, 17:54:06 | Website Response: 操作失敗，請再試一次或聯絡資訊中心。(錯誤代碼：身份錯誤!)
+10/02 Sun, 17:54:06 | Unexpected response (2)
+10/02 Sun, 17:54:12 | Website Response: 操作失敗，請再試一次或聯絡資訊中心。(錯誤代碼：身份錯誤!)
+10/02 Sun, 17:54:12 | Unexpected response (3)
+10/02 Sun, 17:54:17 | Error times exceed 3, exit.

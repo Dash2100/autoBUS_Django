@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'script.js' %}"></script>
+    <title>校車自動回報</title>
+</head>
+<body>
+    <div class="top">
+        <h3>校車自動回報</h3>
+        <button id="on" onclick="on();" style="background-color: green;">開啟</button>
+        <button id="off" onclick="off()" style="background-color: gray;">關閉</button>
+        <h3>LOG</h3>
+    </div>
+    <div class="log">
+        <div class="logtext">
+            {% for line in log %}
+            <p>{{line}}</p>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+{% if data.status == "on" %}
+    <script>
+        document.getElementById('on').style.backgroundColor = 'green';
+        document.getElementById('off').style.backgroundColor = 'gray';
+    </script>
+{% else %}
+    <script>
+        document.getElementById('on').style.backgroundColor = 'gray';
+        document.getElementById('off').style.backgroundColor = 'green';
+    </script>
+{% endif %}
+</html>
